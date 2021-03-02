@@ -170,7 +170,7 @@ public class MyList<T> implements AuthorHolder, AdvancedList<T>, SimpleList<T> {
             while (comparator.compare(array[i],pivot) < 0) {
                 i++;
             }
-            while (comparator.compare(array[j],pivot) < 0) {
+            while (comparator.compare(array[j],pivot) > 0) {
                 j--;
             }
 
